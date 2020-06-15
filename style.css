@@ -1,0 +1,40 @@
+.navigation{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.navref{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 6px 8px 6px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: lightblue;
+    display: block;
+    border: lightblue solid 2px;
+    border-radius: 15px;
+    transition: color .3s linear;
+    transition: background-color .3s linear;
+}
+
+.navref:hover{
+    color: black;
+    background-color: lightblue;
+}
+
+header{
+    text-align: center;
+}
+
+
+.main{
+    margin-left: 220px;
+    text-align: justify;
+}
