@@ -33,8 +33,12 @@ header{
     text-align: center;
 }
 
+.videos{
+    text-align: center;
+}
 
 .main{
     margin-left: 220px;
+    padding: 15px;
     text-align: justify;
 }
